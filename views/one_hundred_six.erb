@@ -1,0 +1,17 @@
+<!-- /views/one_hundred six.erb -->
+
+<html>
+  <head>
+    <title>Dice Roll 100 times</title>
+  </head>
+  <body>
+    <h1>1d20</h1>
+    <ul>
+      <% @rolls.each do |a_roll| %>
+        <li>
+        <%= a_roll %>
+        </li>
+      <% end %>
+    </ul>
+  </body>
+<html>

@@ -5,7 +5,11 @@
     <title>Dice Roll four five</title>
   </head>
   <body>
-    <h1>4d5</h1>
-    <p><%=@outcome%></p>
+  <h2>5d4</h2>
+  <ul>
+    <% @rolls.each do |a_roll| %>
+      <li> <%= a_roll %> </li>
+    <% end %>
+  </ul>
   </body>
 <html>
